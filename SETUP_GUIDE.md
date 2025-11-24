@@ -169,7 +169,7 @@ Once setup is complete:
 1. Review results in `results/` directory
 2. Check `EXECUTIVE_SUMMARY.md` for key findings
 3. See `COMPREHENSIVE_PROOF_REPORT.md` for detailed analysis
-4. Visit the live results page: https://rem.donaldsimpson.co.uk/evidence-backtesting.php
+4. Visit the live results page: https://remora-ai.com/evidence-backtesting.php
 
 ## Support
 
