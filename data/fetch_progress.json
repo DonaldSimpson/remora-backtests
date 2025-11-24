@@ -1,0 +1,8 @@
+{
+  "BTC_USDT_5m": {
+    "last_date": "2025-12-31T00:00:00",
+    "chunks_completed": 74,
+    "total_candles": 619847,
+    "status": "complete"
+  }
+}

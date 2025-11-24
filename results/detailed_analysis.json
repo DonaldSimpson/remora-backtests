@@ -1,0 +1,541 @@
+{
+  "total_comparisons": 20,
+  "average_improvements": {
+    "profit_pct": 0.0,
+    "drawdown_reduction_pct": 0.0,
+    "trades_reduction_pct": 0.0,
+    "win_rate_improvement": 0.0
+  },
+  "median_improvements": {
+    "profit_pct": 0.0,
+    "drawdown_reduction_pct": 0.0
+  },
+  "positive_improvements": {
+    "profit_improved": "0",
+    "drawdown_reduced": "0",
+    "profit_improved_pct": 0.0,
+    "drawdown_reduced_pct": 0.0
+  },
+  "detailed_results": [
+    {
+      "strategy": "BollingerBreakoutStrategy",
+      "period": "20200101-20211231",
+      "baseline": {
+        "total_trades": 3623,
+        "avg_profit_pct": -0.24,
+        "profit_usdt": -854.59,
+        "profit_pct": -85.46,
+        "win_rate": 809.0
+      },
+      "remora": {
+        "total_trades": 3623,
+        "avg_profit_pct": -0.24,
+        "profit_usdt": -854.59,
+        "profit_pct": -85.46,
+        "win_rate": 809.0
+      },
+      "improvements": {
+        "profit_pct": 0.0,
+        "drawdown_reduction_pct": 0,
+        "trades_reduction": 0,
+        "trades_reduction_pct": 0.0,
+        "win_rate_improvement": 0.0,
+        "profit_factor_improvement": 0
+      }
+    },
+    {
+      "strategy": "BollingerBreakoutStrategy",
+      "period": "20200101-20251231",
+      "baseline": {
+        "total_trades": 3858,
+        "avg_profit_pct": -0.23,
+        "profit_usdt": -899.136,
+        "profit_pct": -89.91,
+        "win_rate": 861.0
+      },
+      "remora": {
+        "total_trades": 3858,
+        "avg_profit_pct": -0.23,
+        "profit_usdt": -899.136,
+        "profit_pct": -89.91,
+        "win_rate": 861.0
+      },
+      "improvements": {
+        "profit_pct": 0.0,
+        "drawdown_reduction_pct": 0,
+        "trades_reduction": 0,
+        "trades_reduction_pct": 0.0,
+        "win_rate_improvement": 0.0,
+        "profit_factor_improvement": 0
+      }
+    },
+    {
+      "strategy": "BollingerBreakoutStrategy",
+      "period": "20220101-20221231",
+      "baseline": {
+        "total_trades": 1752,
+        "avg_profit_pct": -0.22,
+        "profit_usdt": -383.581,
+        "profit_pct": -38.36,
+        "win_rate": 349.0
+      },
+      "remora": {
+        "total_trades": 1752,
+        "avg_profit_pct": -0.22,
+        "profit_usdt": -383.581,
+        "profit_pct": -38.36,
+        "win_rate": 349.0
+      },
+      "improvements": {
+        "profit_pct": 0.0,
+        "drawdown_reduction_pct": 0,
+        "trades_reduction": 0,
+        "trades_reduction_pct": 0.0,
+        "win_rate_improvement": 0.0,
+        "profit_factor_improvement": 0
+      }
+    },
+    {
+      "strategy": "BollingerBreakoutStrategy",
+      "period": "20230101-20241231",
+      "baseline": {
+        "total_trades": 3543,
+        "avg_profit_pct": -0.19,
+        "profit_usdt": -663.118,
+        "profit_pct": -66.31,
+        "win_rate": 679.0
+      },
+      "remora": {
+        "total_trades": 3543,
+        "avg_profit_pct": -0.19,
+        "profit_usdt": -663.118,
+        "profit_pct": -66.31,
+        "win_rate": 679.0
+      },
+      "improvements": {
+        "profit_pct": 0.0,
+        "drawdown_reduction_pct": 0,
+        "trades_reduction": 0,
+        "trades_reduction_pct": 0.0,
+        "win_rate_improvement": 0.0,
+        "profit_factor_improvement": 0
+      }
+    },
+    {
+      "strategy": "BollingerBreakoutStrategy",
+      "period": "20240101-20251231",
+      "baseline": {
+        "total_trades": 3171,
+        "avg_profit_pct": -0.21,
+        "profit_usdt": -653.26,
+        "profit_pct": -65.33,
+        "win_rate": 624.0
+      },
+      "remora": {
+        "total_trades": 3171,
+        "avg_profit_pct": -0.21,
+        "profit_usdt": -653.26,
+        "profit_pct": -65.33,
+        "win_rate": 624.0
+      },
+      "improvements": {
+        "profit_pct": 0.0,
+        "drawdown_reduction_pct": 0,
+        "trades_reduction": 0,
+        "trades_reduction_pct": 0.0,
+        "win_rate_improvement": 0.0,
+        "profit_factor_improvement": 0
+      }
+    },
+    {
+      "strategy": "MACDCrossStrategy",
+      "period": "20200101-20211231",
+      "baseline": {
+        "total_trades": 4417,
+        "avg_profit_pct": -0.2,
+        "profit_usdt": -899.582,
+        "profit_pct": -89.96,
+        "win_rate": 985.0
+      },
+      "remora": {
+        "total_trades": 4417,
+        "avg_profit_pct": -0.2,
+        "profit_usdt": -899.582,
+        "profit_pct": -89.96,
+        "win_rate": 985.0
+      },
+      "improvements": {
+        "profit_pct": 0.0,
+        "drawdown_reduction_pct": 0,
+        "trades_reduction": 0,
+        "trades_reduction_pct": 0.0,
+        "win_rate_improvement": 0.0,
+        "profit_factor_improvement": 0
+      }
+    },
+    {
+      "strategy": "MACDCrossStrategy",
+      "period": "20200101-20251231",
+      "baseline": {
+        "total_trades": 4417,
+        "avg_profit_pct": -0.2,
+        "profit_usdt": -899.582,
+        "profit_pct": -89.96,
+        "win_rate": 985.0
+      },
+      "remora": {
+        "total_trades": 4417,
+        "avg_profit_pct": -0.2,
+        "profit_usdt": -899.582,
+        "profit_pct": -89.96,
+        "win_rate": 985.0
+      },
+      "improvements": {
+        "profit_pct": 0.0,
+        "drawdown_reduction_pct": 0,
+        "trades_reduction": 0,
+        "trades_reduction_pct": 0.0,
+        "win_rate_improvement": 0.0,
+        "profit_factor_improvement": 0
+      }
+    },
+    {
+      "strategy": "MACDCrossStrategy",
+      "period": "20220101-20221231",
+      "baseline": {
+        "total_trades": 2608,
+        "avg_profit_pct": -0.21,
+        "profit_usdt": -549.13,
+        "profit_pct": -54.91,
+        "win_rate": 529.0
+      },
+      "remora": {
+        "total_trades": 2608,
+        "avg_profit_pct": -0.21,
+        "profit_usdt": -549.13,
+        "profit_pct": -54.91,
+        "win_rate": 529.0
+      },
+      "improvements": {
+        "profit_pct": 0.0,
+        "drawdown_reduction_pct": 0,
+        "trades_reduction": 0,
+        "trades_reduction_pct": 0.0,
+        "win_rate_improvement": 0.0,
+        "profit_factor_improvement": 0
+      }
+    },
+    {
+      "strategy": "MACDCrossStrategy",
+      "period": "20230101-20241231",
+      "baseline": {
+        "total_trades": 4720,
+        "avg_profit_pct": -0.18,
+        "profit_usdt": -856.197,
+        "profit_pct": -85.62,
+        "win_rate": 897.0
+      },
+      "remora": {
+        "total_trades": 4720,
+        "avg_profit_pct": -0.18,
+        "profit_usdt": -856.197,
+        "profit_pct": -85.62,
+        "win_rate": 897.0
+      },
+      "improvements": {
+        "profit_pct": 0.0,
+        "drawdown_reduction_pct": 0,
+        "trades_reduction": 0,
+        "trades_reduction_pct": 0.0,
+        "win_rate_improvement": 0.0,
+        "profit_factor_improvement": 0
+      }
+    },
+    {
+      "strategy": "MACDCrossStrategy",
+      "period": "20240101-20251231",
+      "baseline": {
+        "total_trades": 4369,
+        "avg_profit_pct": -0.19,
+        "profit_usdt": -825.395,
+        "profit_pct": -82.54,
+        "win_rate": 872.0
+      },
+      "remora": {
+        "total_trades": 4369,
+        "avg_profit_pct": -0.19,
+        "profit_usdt": -825.395,
+        "profit_pct": -82.54,
+        "win_rate": 872.0
+      },
+      "improvements": {
+        "profit_pct": 0.0,
+        "drawdown_reduction_pct": 0,
+        "trades_reduction": 0,
+        "trades_reduction_pct": 0.0,
+        "win_rate_improvement": 0.0,
+        "profit_factor_improvement": 0
+      }
+    },
+    {
+      "strategy": "NFIQuickstartStrategy",
+      "period": "20200101-20211231",
+      "baseline": {
+        "total_trades": 2328,
+        "avg_profit_pct": -0.17,
+        "profit_usdt": -394.014,
+        "profit_pct": -39.4,
+        "win_rate": 666.0
+      },
+      "remora": {
+        "total_trades": 2328,
+        "avg_profit_pct": -0.17,
+        "profit_usdt": -394.014,
+        "profit_pct": -39.4,
+        "win_rate": 666.0
+      },
+      "improvements": {
+        "profit_pct": 0.0,
+        "drawdown_reduction_pct": 0,
+        "trades_reduction": 0,
+        "trades_reduction_pct": 0.0,
+        "win_rate_improvement": 0.0,
+        "profit_factor_improvement": 0
+      }
+    },
+    {
+      "strategy": "NFIQuickstartStrategy",
+      "period": "20200101-20251231",
+      "baseline": {
+        "total_trades": 4959,
+        "avg_profit_pct": -0.18,
+        "profit_usdt": -899.134,
+        "profit_pct": -89.91,
+        "win_rate": 1265.0
+      },
+      "remora": {
+        "total_trades": 4959,
+        "avg_profit_pct": -0.18,
+        "profit_usdt": -899.134,
+        "profit_pct": -89.91,
+        "win_rate": 1265.0
+      },
+      "improvements": {
+        "profit_pct": 0.0,
+        "drawdown_reduction_pct": 0,
+        "trades_reduction": 0,
+        "trades_reduction_pct": 0.0,
+        "win_rate_improvement": 0.0,
+        "profit_factor_improvement": 0
+      }
+    },
+    {
+      "strategy": "NFIQuickstartStrategy",
+      "period": "20220101-20221231",
+      "baseline": {
+        "total_trades": 1185,
+        "avg_profit_pct": -0.23,
+        "profit_usdt": -273.616,
+        "profit_pct": -27.36,
+        "win_rate": 280.0
+      },
+      "remora": {
+        "total_trades": 1185,
+        "avg_profit_pct": -0.23,
+        "profit_usdt": -273.616,
+        "profit_pct": -27.36,
+        "win_rate": 280.0
+      },
+      "improvements": {
+        "profit_pct": 0.0,
+        "drawdown_reduction_pct": 0,
+        "trades_reduction": 0,
+        "trades_reduction_pct": 0.0,
+        "win_rate_improvement": 0.0,
+        "profit_factor_improvement": 0
+      }
+    },
+    {
+      "strategy": "NFIQuickstartStrategy",
+      "period": "20230101-20241231",
+      "baseline": {
+        "total_trades": 2356,
+        "avg_profit_pct": -0.18,
+        "profit_usdt": -418.186,
+        "profit_pct": -41.82,
+        "win_rate": 545.0
+      },
+      "remora": {
+        "total_trades": 2356,
+        "avg_profit_pct": -0.18,
+        "profit_usdt": -418.186,
+        "profit_pct": -41.82,
+        "win_rate": 545.0
+      },
+      "improvements": {
+        "profit_pct": 0.0,
+        "drawdown_reduction_pct": 0,
+        "trades_reduction": 0,
+        "trades_reduction_pct": 0.0,
+        "win_rate_improvement": 0.0,
+        "profit_factor_improvement": 0
+      }
+    },
+    {
+      "strategy": "NFIQuickstartStrategy",
+      "period": "20240101-20251231",
+      "baseline": {
+        "total_trades": 2214,
+        "avg_profit_pct": -0.2,
+        "profit_usdt": -432.202,
+        "profit_pct": -43.22,
+        "win_rate": 564.0
+      },
+      "remora": {
+        "total_trades": 2214,
+        "avg_profit_pct": -0.2,
+        "profit_usdt": -432.202,
+        "profit_pct": -43.22,
+        "win_rate": 564.0
+      },
+      "improvements": {
+        "profit_pct": 0.0,
+        "drawdown_reduction_pct": 0,
+        "trades_reduction": 0,
+        "trades_reduction_pct": 0.0,
+        "win_rate_improvement": 0.0,
+        "profit_factor_improvement": 0
+      }
+    },
+    {
+      "strategy": "RSIEMAStrategy",
+      "period": "20200101-20211231",
+      "baseline": {
+        "total_trades": 358,
+        "avg_profit_pct": -0.25,
+        "profit_usdt": -90.232,
+        "profit_pct": -9.02,
+        "win_rate": 49.0
+      },
+      "remora": {
+        "total_trades": 358,
+        "avg_profit_pct": -0.25,
+        "profit_usdt": -90.232,
+        "profit_pct": -9.02,
+        "win_rate": 49.0
+      },
+      "improvements": {
+        "profit_pct": 0.0,
+        "drawdown_reduction_pct": 0,
+        "trades_reduction": 0,
+        "trades_reduction_pct": 0.0,
+        "win_rate_improvement": 0.0,
+        "profit_factor_improvement": 0
+      }
+    },
+    {
+      "strategy": "RSIEMAStrategy",
+      "period": "20200101-20251231",
+      "baseline": {
+        "total_trades": 1117,
+        "avg_profit_pct": -0.22,
+        "profit_usdt": -250.598,
+        "profit_pct": -25.06,
+        "win_rate": 135.0
+      },
+      "remora": {
+        "total_trades": 1117,
+        "avg_profit_pct": -0.22,
+        "profit_usdt": -250.598,
+        "profit_pct": -25.06,
+        "win_rate": 135.0
+      },
+      "improvements": {
+        "profit_pct": 0.0,
+        "drawdown_reduction_pct": 0,
+        "trades_reduction": 0,
+        "trades_reduction_pct": 0.0,
+        "win_rate_improvement": 0.0,
+        "profit_factor_improvement": 0
+      }
+    },
+    {
+      "strategy": "RSIEMAStrategy",
+      "period": "20220101-20221231",
+      "baseline": {
+        "total_trades": 199,
+        "avg_profit_pct": -0.2,
+        "profit_usdt": -40.085,
+        "profit_pct": -4.01,
+        "win_rate": 31.0
+      },
+      "remora": {
+        "total_trades": 199,
+        "avg_profit_pct": -0.2,
+        "profit_usdt": -40.085,
+        "profit_pct": -4.01,
+        "win_rate": 31.0
+      },
+      "improvements": {
+        "profit_pct": 0.0,
+        "drawdown_reduction_pct": 0,
+        "trades_reduction": 0,
+        "trades_reduction_pct": 0.0,
+        "win_rate_improvement": 0.0,
+        "profit_factor_improvement": 0
+      }
+    },
+    {
+      "strategy": "RSIEMAStrategy",
+      "period": "20230101-20241231",
+      "baseline": {
+        "total_trades": 372,
+        "avg_profit_pct": -0.22,
+        "profit_usdt": -82.591,
+        "profit_pct": -8.26,
+        "win_rate": 33.0
+      },
+      "remora": {
+        "total_trades": 372,
+        "avg_profit_pct": -0.22,
+        "profit_usdt": -82.591,
+        "profit_pct": -8.26,
+        "win_rate": 33.0
+      },
+      "improvements": {
+        "profit_pct": 0.0,
+        "drawdown_reduction_pct": 0,
+        "trades_reduction": 0,
+        "trades_reduction_pct": 0.0,
+        "win_rate_improvement": 0.0,
+        "profit_factor_improvement": 0
+      }
+    },
+    {
+      "strategy": "RSIEMAStrategy",
+      "period": "20240101-20251231",
+      "baseline": {
+        "total_trades": 375,
+        "avg_profit_pct": -0.21,
+        "profit_usdt": -79.586,
+        "profit_pct": -7.96,
+        "win_rate": 38.0
+      },
+      "remora": {
+        "total_trades": 375,
+        "avg_profit_pct": -0.21,
+        "profit_usdt": -79.586,
+        "profit_pct": -7.96,
+        "win_rate": 38.0
+      },
+      "improvements": {
+        "profit_pct": 0.0,
+        "drawdown_reduction_pct": 0,
+        "trades_reduction": 0,
+        "trades_reduction_pct": 0.0,
+        "win_rate_improvement": 0.0,
+        "profit_factor_improvement": 0
+      }
+    }
+  ]
+}

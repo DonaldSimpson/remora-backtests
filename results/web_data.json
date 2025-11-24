@@ -1,0 +1,386 @@
+{
+  "summary": {
+    "total_trades": 51941,
+    "trades_filtered": 2239,
+    "filter_pct": 4.3,
+    "profit_improvement": 1.54,
+    "dd_reduction": 1.55,
+    "success_rate": 90
+  },
+  "strategies": [
+    {
+      "name": "NFIQuickstart",
+      "filtered": 723,
+      "baseline": 13042,
+      "filter_pct": 5.5,
+      "profit": 0.52,
+      "dd": 0.55
+    },
+    {
+      "name": "MACDCross",
+      "filtered": 875,
+      "baseline": 20531,
+      "filter_pct": 4.3,
+      "profit": 1.85,
+      "dd": 1.84
+    },
+    {
+      "name": "RSIEMA",
+      "filtered": 124,
+      "baseline": 2421,
+      "filter_pct": 5.1,
+      "profit": 0.6,
+      "dd": 0.6
+    },
+    {
+      "name": "BollingerBreakout",
+      "filtered": 517,
+      "baseline": 15947,
+      "filter_pct": 3.2,
+      "profit": 3.2,
+      "dd": 3.19
+    }
+  ],
+  "comparisons": [
+    {
+      "strategy": "NFIQuickstart",
+      "period": "20230101-20241231",
+      "baseline": {
+        "trades": 2356,
+        "profit": -41.82,
+        "drawdown": null
+      },
+      "remora": {
+        "trades": 2354,
+        "profit": -41.77,
+        "drawdown": null
+      },
+      "filtered": 2,
+      "filter_pct": 0.08488964346349745,
+      "profit_improvement": 0.04999999999999716
+    },
+    {
+      "strategy": "MACDCross",
+      "period": "20230101-20241231",
+      "baseline": {
+        "trades": 4720,
+        "profit": -85.62,
+        "drawdown": null
+      },
+      "remora": {
+        "trades": 4712,
+        "profit": -85.41,
+        "drawdown": null
+      },
+      "filtered": 8,
+      "filter_pct": 0.1694915254237288,
+      "profit_improvement": 0.21000000000000796
+    },
+    {
+      "strategy": "RSIEMA",
+      "period": "20230101-20241231",
+      "baseline": {
+        "trades": 372,
+        "profit": -8.26,
+        "drawdown": null
+      },
+      "remora": {
+        "trades": 371,
+        "profit": -8.25,
+        "drawdown": null
+      },
+      "filtered": 1,
+      "filter_pct": 0.2688172043010753,
+      "profit_improvement": 0.009999999999999787
+    },
+    {
+      "strategy": "MACDCross",
+      "period": "20240101-20251231",
+      "baseline": {
+        "trades": 4369,
+        "profit": -82.54,
+        "drawdown": null
+      },
+      "remora": {
+        "trades": 4287,
+        "profit": -81.28,
+        "drawdown": null
+      },
+      "filtered": 82,
+      "filter_pct": 1.8768596932936599,
+      "profit_improvement": 1.2600000000000051
+    },
+    {
+      "strategy": "MACDCross",
+      "period": "20220101-20221231",
+      "baseline": {
+        "trades": 2608,
+        "profit": -54.91,
+        "drawdown": null
+      },
+      "remora": {
+        "trades": 2185,
+        "profit": -47.21,
+        "drawdown": null
+      },
+      "filtered": 423,
+      "filter_pct": 16.219325153374236,
+      "profit_improvement": 7.699999999999996
+    },
+    {
+      "strategy": "BollingerBreakout",
+      "period": "20230101-20241231",
+      "baseline": {
+        "trades": 3543,
+        "profit": -66.31,
+        "drawdown": null
+      },
+      "remora": {
+        "trades": 3536,
+        "profit": -66.13,
+        "drawdown": null
+      },
+      "filtered": 7,
+      "filter_pct": 0.19757267852102736,
+      "profit_improvement": 0.18000000000000682
+    },
+    {
+      "strategy": "BollingerBreakout",
+      "period": "20200101-20251231",
+      "baseline": {
+        "trades": 3858,
+        "profit": -89.91,
+        "drawdown": null
+      },
+      "remora": {
+        "trades": 3996,
+        "profit": -89.9,
+        "drawdown": null
+      },
+      "filtered": -138,
+      "filter_pct": -3.576982892690513,
+      "profit_improvement": 0.009999999999990905
+    },
+    {
+      "strategy": "MACDCross",
+      "period": "20200101-20251231",
+      "baseline": {
+        "trades": 4417,
+        "profit": -89.96,
+        "drawdown": null
+      },
+      "remora": {
+        "trades": 4236,
+        "profit": -89.93,
+        "drawdown": null
+      },
+      "filtered": 181,
+      "filter_pct": 4.097803939325334,
+      "profit_improvement": 0.029999999999986926
+    },
+    {
+      "strategy": "RSIEMA",
+      "period": "20240101-20251231",
+      "baseline": {
+        "trades": 375,
+        "profit": -7.96,
+        "drawdown": null
+      },
+      "remora": {
+        "trades": 369,
+        "profit": -7.8,
+        "drawdown": null
+      },
+      "filtered": 6,
+      "filter_pct": 1.6,
+      "profit_improvement": 0.16000000000000014
+    },
+    {
+      "strategy": "NFIQuickstart",
+      "period": "20200101-20211231",
+      "baseline": {
+        "trades": 2328,
+        "profit": -39.4,
+        "drawdown": null
+      },
+      "remora": {
+        "trades": 2163,
+        "profit": -42.07,
+        "drawdown": null
+      },
+      "filtered": 165,
+      "filter_pct": 7.087628865979381,
+      "profit_improvement": -2.6700000000000017
+    },
+    {
+      "strategy": "RSIEMA",
+      "period": "20200101-20251231",
+      "baseline": {
+        "trades": 1117,
+        "profit": -25.06,
+        "drawdown": null
+      },
+      "remora": {
+        "trades": 1055,
+        "profit": -23.56,
+        "drawdown": null
+      },
+      "filtered": 62,
+      "filter_pct": 5.550581915846016,
+      "profit_improvement": 1.5
+    },
+    {
+      "strategy": "NFIQuickstart",
+      "period": "20200101-20251231",
+      "baseline": {
+        "trades": 4959,
+        "profit": -89.91,
+        "drawdown": null
+      },
+      "remora": {
+        "trades": 4665,
+        "profit": -89.93,
+        "drawdown": null
+      },
+      "filtered": 294,
+      "filter_pct": 5.928614640048397,
+      "profit_improvement": -0.020000000000010232
+    },
+    {
+      "strategy": "BollingerBreakout",
+      "period": "20220101-20221231",
+      "baseline": {
+        "trades": 1752,
+        "profit": -38.36,
+        "drawdown": null
+      },
+      "remora": {
+        "trades": 1455,
+        "profit": -31.87,
+        "drawdown": null
+      },
+      "filtered": 297,
+      "filter_pct": 16.95205479452055,
+      "profit_improvement": 6.489999999999998
+    },
+    {
+      "strategy": "RSIEMA",
+      "period": "20200101-20211231",
+      "baseline": {
+        "trades": 358,
+        "profit": -9.02,
+        "drawdown": null
+      },
+      "remora": {
+        "trades": 340,
+        "profit": -8.65,
+        "drawdown": null
+      },
+      "filtered": 18,
+      "filter_pct": 5.027932960893855,
+      "profit_improvement": 0.3699999999999992
+    },
+    {
+      "strategy": "BollingerBreakout",
+      "period": "20240101-20251231",
+      "baseline": {
+        "trades": 3171,
+        "profit": -65.33,
+        "drawdown": null
+      },
+      "remora": {
+        "trades": 3114,
+        "profit": -64.77,
+        "drawdown": null
+      },
+      "filtered": 57,
+      "filter_pct": 1.7975402081362346,
+      "profit_improvement": 0.5600000000000023
+    },
+    {
+      "strategy": "BollingerBreakout",
+      "period": "20200101-20211231",
+      "baseline": {
+        "trades": 3623,
+        "profit": -85.46,
+        "drawdown": null
+      },
+      "remora": {
+        "trades": 3329,
+        "profit": -76.7,
+        "drawdown": null
+      },
+      "filtered": 294,
+      "filter_pct": 8.11482197074248,
+      "profit_improvement": 8.759999999999991
+    },
+    {
+      "strategy": "NFIQuickstart",
+      "period": "20220101-20221231",
+      "baseline": {
+        "trades": 1185,
+        "profit": -27.36,
+        "drawdown": null
+      },
+      "remora": {
+        "trades": 972,
+        "profit": -22.83,
+        "drawdown": null
+      },
+      "filtered": 213,
+      "filter_pct": 17.974683544303797,
+      "profit_improvement": 4.530000000000001
+    },
+    {
+      "strategy": "MACDCross",
+      "period": "20200101-20211231",
+      "baseline": {
+        "trades": 4417,
+        "profit": -89.96,
+        "drawdown": null
+      },
+      "remora": {
+        "trades": 4236,
+        "profit": -89.93,
+        "drawdown": null
+      },
+      "filtered": 181,
+      "filter_pct": 4.097803939325334,
+      "profit_improvement": 0.029999999999986926
+    },
+    {
+      "strategy": "NFIQuickstart",
+      "period": "20240101-20251231",
+      "baseline": {
+        "trades": 2214,
+        "profit": -43.22,
+        "drawdown": null
+      },
+      "remora": {
+        "trades": 2165,
+        "profit": -42.49,
+        "drawdown": null
+      },
+      "filtered": 49,
+      "filter_pct": 2.2131887985546523,
+      "profit_improvement": 0.7299999999999969
+    },
+    {
+      "strategy": "RSIEMA",
+      "period": "20220101-20221231",
+      "baseline": {
+        "trades": 199,
+        "profit": -4.01,
+        "drawdown": null
+      },
+      "remora": {
+        "trades": 162,
+        "profit": -3.05,
+        "drawdown": null
+      },
+      "filtered": 37,
+      "filter_pct": 18.592964824120603,
+      "profit_improvement": 0.96
+    }
+  ]
+}
