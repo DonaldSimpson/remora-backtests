@@ -1,0 +1,37 @@
+# Exclude handover document and blog post from GitHub
+handover.md
+freqtrade_risk_management.html
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Data files (optional - uncomment if you don't want to commit data)
+# data/*.parquet
+# data/*.csv
+# historical_remora/*.csv
+
+# Results (optional - uncomment if you don't want to commit results)
+# results/*.json
+# results/*.png
+# results/*.html
+
+# Logs
+*.log
+

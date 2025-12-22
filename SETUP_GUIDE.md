@@ -1,6 +1,6 @@
-# Setup Guide - Remora Backtesting
+# Setup Guide - Remora Backtesting for Freqtrade
 
-This guide will walk you through setting up and running the Remora backtesting framework.
+This guide will walk you through setting up and running the Remora backtesting framework to validate Remora's impact on **Freqtrade strategies**.
 
 ## Prerequisites
 
@@ -14,6 +14,8 @@ This guide will walk you through setting up and running the Remora backtesting f
    # Install Freqtrade
    # See: https://www.freqtrade.io/en/stable/installation/
    ```
+   
+   **Note:** This framework uses Freqtrade's native backtesting engine to ensure realistic results.
 
 3. **Required Python packages**
    ```bash
@@ -37,17 +39,17 @@ pip install -r requirements.txt
 
 ### 3. Fetch Historical Data
 
-You need two types of data:
+You need two types of data for Freqtrade backtesting:
 
-#### A. OHLCV Data (Price Data)
+#### A. OHLCV Data (Price Data for Freqtrade)
 
 ```bash
-python data/ohlcv_fetcher.py --pair BTC/USDT --timeframe 5m --start 2020-01-01 --end 2025-12-31
+python fetch_data_robust.py --pair BTC/USDT --timeframe 5m --start 2020-01-01 --end 2025-12-31
 ```
 
-This will download BTC/USDT 5-minute candles and save them as Parquet files.
+This will download BTC/USDT 5-minute candles (compatible with Freqtrade) and save them as Parquet files.
 
-#### B. External Market Data
+#### B. External Market Data (for Remora Risk Calculation)
 
 ```bash
 python historical_remora/historical_data_fetcher.py --start 2020-01-01 --end 2025-12-31
@@ -100,9 +102,11 @@ Create a minimal Freqtrade config (or use the provided `user_data/config.json`):
 }
 ```
 
+**Important:** Ensure your Freqtrade strategies are in the correct location (`user_data/strategies/`).
+
 ### 6. Run Backtests
 
-Run all backtests:
+Run all backtests comparing baseline Freqtrade strategies vs Remora-enhanced Freqtrade strategies:
 
 ```bash
 python run_backtests.py
@@ -115,8 +119,9 @@ Or use the shell script:
 ```
 
 This will:
-- Run baseline strategies for all periods
-- Run Remora-enhanced strategies for all periods
+- Run baseline Freqtrade strategies for all periods
+- Run Remora-enhanced Freqtrade strategies for all periods
+- Use Freqtrade's native backtesting engine
 - Save results in `results/` directory
 
 ### 7. Analyze Results
@@ -125,7 +130,30 @@ This will:
 python analyze_results.py
 ```
 
-This generates summary reports and comparison files.
+This generates summary reports and comparison files showing the impact of Remora on Freqtrade strategies.
+
+## Understanding the Results
+
+### What Gets Tested
+
+The framework tests:
+- **Baseline Freqtrade strategies** - Standard Freqtrade implementations without Remora
+- **Remora-enhanced Freqtrade strategies** - Same strategies with Remora risk filtering
+
+### Key Metrics
+
+Results show:
+- Profit improvement (baseline vs Remora-enhanced)
+- Drawdown reduction
+- Number of trades filtered (high-risk periods avoided)
+- Risk-adjusted returns (Sharpe, Sortino)
+- Performance across different market regimes
+
+### Detailed Analysis
+
+For comprehensive analysis and financial impact calculations, see:
+- **Blog Post:** [Advanced Risk Management for Freqtrade](https://www.donaldsimpson.co.uk/2025/12/22/advanced-risk-management-for-freqtrade-strategies/)
+- **Main Website:** [remora-ai.com](https://remora-ai.com)
 
 ## Troubleshooting
 
@@ -148,10 +176,17 @@ If backtests fail due to missing data:
 - Ensure Freqtrade is properly installed
 - Check that strategies are in the correct location (`user_data/strategies/`)
 - Verify config.json is valid
+- Ensure Freqtrade can access the data directory
+
+### Remora History Issues
+
+- Run `build_remora_history.py` first
+- Ensure external data is fetched
+- Check that `remora_history.csv` contains data for your test periods
 
 ## Data Requirements
 
-Minimum data needed:
+Minimum data needed for Freqtrade backtesting:
 - OHLCV: BTC/USDT 5m candles (2020-01-01 to 2025-12-31)
 - External data: VIX, DXY, Fear & Greed, Funding Rates, etc.
 - Remora history: Generated from above data
@@ -160,19 +195,40 @@ Minimum data needed:
 
 - Data fetching: 10-30 minutes (depending on API limits)
 - Remora history build: 5-15 minutes
-- Backtests: 30-60 minutes (20 test cases)
+- Backtests: 30-60 minutes (20 test cases using Freqtrade)
 - Analysis: 1-2 minutes
 
 ## Next Steps
 
 Once setup is complete:
-1. Review results in `results/` directory
-2. Check `EXECUTIVE_SUMMARY.md` for key findings
-3. See `COMPREHENSIVE_PROOF_REPORT.md` for detailed analysis
-4. Visit the live results page: https://remora-ai.com/evidence-backtesting.php
+
+1. **Review Results** - Check `results/` directory for detailed metrics
+2. **Read the Blog Post** - [Advanced Risk Management for Freqtrade](https://www.donaldsimpson.co.uk/2025/12/22/advanced-risk-management-for-freqtrade-strategies/)
+3. **Visit the Website** - [remora-ai.com](https://remora-ai.com) for integration examples
+4. **Test Your Own Strategies** - Use this framework to test your own Freqtrade strategies with and without Remora
+
+## Integration with Your Freqtrade Strategies
+
+To integrate Remora with your own Freqtrade strategies:
+
+1. See the [integration examples](https://remora-ai.com) on the Remora website
+2. Check the [blog post](https://www.donaldsimpson.co.uk/2025/12/22/advanced-risk-management-for-freqtrade-strategies/) for detailed, color-coded examples
+3. Review the [remora-freqtrade repository](https://github.com/DonaldSimpson/remora-freqtrade) for onboarding guides
+
+**Key Integration Points:**
+- Add Remora check in `confirm_trade_entry()` method
+- Use `remora_allows()` to check if current market conditions are safe
+- Remora returns `False` during high-risk periods, blocking the trade
+- Fail-open behaviour: if Remora is unavailable, trades proceed normally
 
 ## Support
 
 For issues or questions:
 - Open an issue on GitHub
 - Check the [METHODOLOGY.md](METHODOLOGY.md) for technical details
+- Visit [remora-ai.com](https://remora-ai.com) for documentation
+- See [Freqtrade documentation](https://www.freqtrade.io) for Freqtrade-specific help
+
+---
+
+**Built for Freqtrade** | [Remora Website](https://remora-ai.com) | [Blog Post](https://www.donaldsimpson.co.uk/2025/12/22/advanced-risk-management-for-freqtrade-strategies/) | [Freqtrade](https://www.freqtrade.io)
