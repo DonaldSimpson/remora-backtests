@@ -1,12 +1,17 @@
 # Remora Backtesting Framework for Freqtrade
 
+> [!IMPORTANT]
+> **The hosted Remora API at remora-ai.com was retired in November 2026.** These backtests run on the
+> bundled historical Remora data and don't need the API. To run the risk engine yourself, see
+> **[DonaldSimpson/remora](https://github.com/DonaldSimpson/remora)**.
+
 **Reproducible backtesting framework for validating Remora's impact on Freqtrade strategies**
 
-[![Remora Website](https://img.shields.io/badge/Remora-remora--ai.com-8b6bff)](https://remora-ai.com)
+[![Remora](https://img.shields.io/badge/Self--host-DonaldSimpson%2Fremora-8b6bff)](https://github.com/DonaldSimpson/remora)
 [![Blog Post](https://img.shields.io/badge/Blog-Advanced%20Risk%20Management-8b6bff)](https://www.donaldsimpson.co.uk/2025/12/22/advanced-risk-management-for-freqtrade-strategies/)
 [![Freqtrade](https://img.shields.io/badge/Built%20for-Freqtrade-8b6bff)](https://www.freqtrade.io)
 
-[<img src="images/remora-social-card.jpg" alt="Remora Risk Engine - Stop Bad Trades Before They Happen" width="600">](https://remora-ai.com)
+<img src="images/remora-social-card.jpg" alt="Remora Risk Engine - Stop Bad Trades Before They Happen" width="600">
 
 ### BUILT FOR:
 
@@ -119,7 +124,7 @@ def confirm_trade_entry(self, pair, order_type, amount, rate, time_in_force, **k
     return True
 ```
 
-See the [integration examples](https://remora-ai.com) and [blog post](https://www.donaldsimpson.co.uk/2025/12/22/advanced-risk-management-for-freqtrade-strategies/) for detailed, color-coded examples.
+See the [integration examples](https://github.com/DonaldSimpson/remora-freqtrade) and [blog post](https://www.donaldsimpson.co.uk/2025/12/22/advanced-risk-management-for-freqtrade-strategies/) for detailed, color-coded examples.
 
 ## Test Periods
 
@@ -167,11 +172,9 @@ See [METHODOLOGY.md](METHODOLOGY.md) for detailed methodology.
 
 ## Resources
 
-### Website & Documentation
-- **Main Website:** [remora-ai.com](https://remora-ai.com)
+### Documentation
+- **Risk engine (self-host):** [DonaldSimpson/remora](https://github.com/DonaldSimpson/remora)
 - **Blog Post (Detailed Analysis):** [Advanced Risk Management for Freqtrade](https://www.donaldsimpson.co.uk/2025/12/22/advanced-risk-management-for-freqtrade-strategies/)
-- **API Documentation:** [remora-ai.com/api-docs.php](https://remora-ai.com/api-docs.php)
-- **Live Status:** [remora-ai.com/status.php](https://remora-ai.com/status.php)
 
 ### Freqtrade Resources
 - **Freqtrade:** [freqtrade.io](https://www.freqtrade.io)
@@ -228,7 +231,7 @@ For detailed setup instructions, see [SETUP_GUIDE.md](SETUP_GUIDE.md).
 For issues or questions:
 - Open an issue in this repository
 - Check the [METHODOLOGY.md](METHODOLOGY.md) for technical details
-- Visit [remora-ai.com](https://remora-ai.com) for documentation
+- See [DonaldSimpson/remora](https://github.com/DonaldSimpson/remora) for documentation
 
 ## License
 
@@ -236,4 +239,4 @@ See LICENSE file for details.
 
 ---
 
-**Built for Freqtrade** | [Remora Website](https://remora-ai.com) | [Blog Post](https://www.donaldsimpson.co.uk/2025/12/22/advanced-risk-management-for-freqtrade-strategies/) | [Freqtrade](https://www.freqtrade.io)
+**Built for Freqtrade** | [Remora](https://github.com/DonaldSimpson/remora) | [Blog Post](https://www.donaldsimpson.co.uk/2025/12/22/advanced-risk-management-for-freqtrade-strategies/) | [Freqtrade](https://www.freqtrade.io)

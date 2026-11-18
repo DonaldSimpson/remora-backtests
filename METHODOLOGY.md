@@ -106,7 +106,7 @@ def remora_allows(timestamp):
 - **Transparent** - Remora returns reasoning (risk_score, regime) not just boolean
 - **Easy to remove** - Just delete the Remora check lines
 
-See the [Remora website](https://remora-ai.com) and [blog post](https://www.donaldsimpson.co.uk/2025/12/22/advanced-risk-management-for-freqtrade-strategies/) for detailed, color-coded integration examples.
+See the [remora-freqtrade](https://github.com/DonaldSimpson/remora-freqtrade) repo and [blog post](https://www.donaldsimpson.co.uk/2025/12/22/advanced-risk-management-for-freqtrade-strategies/) for detailed, color-coded integration examples.
 
 ## 5. Backtest Execution
 
@@ -220,7 +220,7 @@ The results demonstrate that Remora provides meaningful value to Freqtrade users
 ---
 
 **Resources:**
-- [Remora Website](https://remora-ai.com)
+- [Remora](https://github.com/DonaldSimpson/remora)
 - [Blog Post (Detailed Analysis)](https://www.donaldsimpson.co.uk/2025/12/22/advanced-risk-management-for-freqtrade-strategies/)
 - [Freqtrade Documentation](https://www.freqtrade.io)
 - [Freqtrade Integration Examples](https://github.com/DonaldSimpson/remora-freqtrade)

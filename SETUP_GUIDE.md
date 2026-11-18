@@ -153,7 +153,7 @@ Results show:
 
 For comprehensive analysis and financial impact calculations, see:
 - **Blog Post:** [Advanced Risk Management for Freqtrade](https://www.donaldsimpson.co.uk/2025/12/22/advanced-risk-management-for-freqtrade-strategies/)
-- **Main Website:** [remora-ai.com](https://remora-ai.com)
+- **Risk engine (self-host):** [DonaldSimpson/remora](https://github.com/DonaldSimpson/remora)
 
 ## Troubleshooting
 
@@ -204,14 +204,14 @@ Once setup is complete:
 
 1. **Review Results** - Check `results/` directory for detailed metrics
 2. **Read the Blog Post** - [Advanced Risk Management for Freqtrade](https://www.donaldsimpson.co.uk/2025/12/22/advanced-risk-management-for-freqtrade-strategies/)
-3. **Visit the Website** - [remora-ai.com](https://remora-ai.com) for integration examples
+3. **See the integration repo** - [remora-freqtrade](https://github.com/DonaldSimpson/remora-freqtrade) for integration examples
 4. **Test Your Own Strategies** - Use this framework to test your own Freqtrade strategies with and without Remora
 
 ## Integration with Your Freqtrade Strategies
 
 To integrate Remora with your own Freqtrade strategies:
 
-1. See the [integration examples](https://remora-ai.com) on the Remora website
+1. See the [integration examples](https://github.com/DonaldSimpson/remora-freqtrade) in remora-freqtrade
 2. Check the [blog post](https://www.donaldsimpson.co.uk/2025/12/22/advanced-risk-management-for-freqtrade-strategies/) for detailed, color-coded examples
 3. Review the [remora-freqtrade repository](https://github.com/DonaldSimpson/remora-freqtrade) for onboarding guides
 
@@ -226,9 +226,9 @@ To integrate Remora with your own Freqtrade strategies:
 For issues or questions:
 - Open an issue on GitHub
 - Check the [METHODOLOGY.md](METHODOLOGY.md) for technical details
-- Visit [remora-ai.com](https://remora-ai.com) for documentation
+- See [DonaldSimpson/remora](https://github.com/DonaldSimpson/remora) for documentation
 - See [Freqtrade documentation](https://www.freqtrade.io) for Freqtrade-specific help
 
 ---
 
-**Built for Freqtrade** | [Remora Website](https://remora-ai.com) | [Blog Post](https://www.donaldsimpson.co.uk/2025/12/22/advanced-risk-management-for-freqtrade-strategies/) | [Freqtrade](https://www.freqtrade.io)
+**Built for Freqtrade** | [Remora](https://github.com/DonaldSimpson/remora) | [Blog Post](https://www.donaldsimpson.co.uk/2025/12/22/advanced-risk-management-for-freqtrade-strategies/) | [Freqtrade](https://www.freqtrade.io)
